@@ -89,9 +89,9 @@ const CartMenu = () => {
                     {/* AMOUNT */}
                     <FlexBox m="15px 0">
                       <Box
-                        dispatch="flex"
+                        display="flex"
                         alignItems="center"
-                        border={`1.5px solid ${shades.neutral[500]}]`}
+                        border={`1.5px solid ${shades.neutral[500]}`}
                       >
                         <IconButton onClick={() => dispatch(decreaseCount({ id: item.id }))}>
                           <RemoveIcon />
@@ -134,7 +134,6 @@ const CartMenu = () => {
               }}
             >
               CHECKOUT</Button>
-
           </Box>
         </Box >
       </Box >
