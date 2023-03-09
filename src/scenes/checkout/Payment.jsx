@@ -1,7 +1,5 @@
 import { Box, Typography, TextField } from "@mui/material";
 
-
-
 const Payment = ({ values, touched, errors, handleBlur, handleChange }) => {
   return (
     <Box m="30px 0">
@@ -34,7 +32,7 @@ const Payment = ({ values, touched, errors, handleBlur, handleChange }) => {
         />
       </Box>
     </Box>
-  )
-}
+  );
+};
 
 export default Payment;
